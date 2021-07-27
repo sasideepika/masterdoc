@@ -1,0 +1,25 @@
+[
+  {
+    "Name": "All Modules:Masterdoc",
+    "Language": "English",
+    "BaseURL": "https://github.com/MicrosoftLearning/AZ-304-Microsoft-Azure-Architect-Design",
+    "Files":[
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/AZ-304-Microsoft-Azure-Architect-Design/master/Instructions/Labs/Module_3_Lab.md",
+        "Order": 1
+       },
+       {
+        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/AZ-304-Microsoft-Azure-Architect-Design/master/Instructions/Labs/Module_4_Lab.md",
+        "Order": 2
+        },
+        {
+        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/AZ-304-Microsoft-Azure-Architect-Design/master/Instructions/Labs/Module_6_Lab.md",
+        "Order": 3
+        },
+        {
+        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/AZ-304-Microsoft-Azure-Architect-Design/master/Instructions/Labs/Module_13_Lab_a.md",
+        "Order": 4
+        }
+       ]
+      }
+     ]
