@@ -1,119 +1,131 @@
 {
-	"if": {
-		"anyOf": [{
-				"not": {
-					"anyOf": [{
-							"field": "type",
-							"like": "Microsoft.Compute/disks/*"
-						},
-						{
-							"field": "type",
-							"like": "Microsoft.Compute/virtualMachines/*"
-						},
-						{
-							"field": "type",
-							"like": "Microsoft.Network/connections/*"
-						},
-						{
-							"field": "type",
-							"like": "Microsoft.Network/networkInterfaces/*"
-						},
-						{
-							"field": "type",
-							"like": "Microsoft.Network/networkSecurityGroups/*"
-						},
-						{
-							"field": "type",
-							"like": "Microsoft.Network/publicIPAddresses/*"
-						},
-						{
-							"field": "type",
-							"like": "Microsoft.Network/virtualHubs/*"
-						},
-						{
-							"field": "type",
-							"like": "Microsoft.Network/virtualNetworkGateways/*"
-						},
-						{
-							"field": "type",
-							"like": "Microsoft.Network/virtualNetworks/*"
-						},
-						{
-							"field": "type",
-							"like": "Microsoft.Network/virtualWans/*"
-						},
-						{
-							"field": "type",
-							"like": "Microsoft.Network/vpnGateways/*"
-						},
-						{
-							"field": "type",
-							"like": "Microsoft.Storage/storageAccounts/*"
-						},
-						{
-							"field": "type",
-							"in": ["Microsoft.Compute/disks", "Microsoft.Compute/virtualMachines", "Microsoft.Network/connections", "Microsoft.Network/networkInterfaces", "Microsoft.Network/networkSecurityGroups", "Microsoft.Network/publicIPAddresses", "Microsoft.Network/virtualHubs", "Microsoft.Network/virtualNetworkGateways", "Microsoft.Network/virtualNetworks", "Microsoft.Network/virtualWans", "Microsoft.Network/vpnGateways", "Microsoft.Storage/storageAccounts"]
-						}
-					]
-				}
-			},
-			{
-				"allof": [{
-						"field": "type",
-						"equals": "Microsoft.Compute/disks"
-					},
-					{
-						"not": {
-							"field": "Microsoft.Compute/disks/Sku.Tier",
-							"in": ["Standard"]
-						}
-					}
-				]
-			},
-			{
-				"allOf": [{
-						"field": "type",
-						"equals": "Microsoft.Compute/virtualMachines"
-					},
-					{
-						"not": {
-							"allOf": [{
-									"field": "Microsoft.Compute/virtualMachines/imageOffer",
-									"in": ["Windows-10"]
-								},
-								{
-									"field": "Microsoft.Compute/virtualMachines/imagePublisher",
-									"in": ["MicrosoftWindowsDesktop"]
-								},
-								{
-									"field": "Microsoft.Compute/virtualMachines/imageSku",
-									"in": ["20h2-pro"]
-								},
-								{
-									"field": "Microsoft.Compute/virtualMachines/sku.name",
-									"in": ["Standard_D2_v3"]
-								}
-							]
-						}
-					}
-				]
-			},
-			{
-				"allOf": [{
-						"source": "action",
-						"equals": "Microsoft.Storage/storageAccounts/write"
-					},
-					{
-						"field": "type",
-						"equals": "Microsoft.Storage/storageAccounts"
-					}
-
-				]
+	 "if": {
+	    "anyOf": [
+		 {
+			"not": {
+			  "anyOf": [
+                    {
+				    "field": "type",
+				    "like": "Microsoft.Compute/disks/*"
+				    },
+                    {
+				    "field": "type",
+				    "like": "Microsoft.Compute/virtualMachines/*"
+				    },
+                    {
+				    "field": "type",
+				    "like": "Microsoft.Network/connections/*"
+				    },
+                    {
+				    "field": "type",
+				    "like": "Microsoft.Network/networkInterfaces/*"
+				    },
+                    {
+				    "field": "type",
+				    "like": "Microsoft.Network/networkSecurityGroups/*"
+				    },
+                    {
+				    "field": "type",
+				    "like": "Microsoft.Network/publicIPAddresses/*"
+				    },
+                    {
+				    "field": "type",
+				    "like": "Microsoft.Network/virtualHubs/*"
+				    },
+                    {
+				    "field": "type",
+				    "like": "Microsoft.Network/virtualNetworkGateways/*"
+				    },
+                    {
+				    "field": "type",
+				    "like": "Microsoft.Network/virtualNetworks/*"
+				    },
+                    {
+				    "field": "type",
+				    "like": "Microsoft.Network/virtualWans/*"
+				    },
+                    {
+				    "field": "type",
+				    "like": "Microsoft.Network/vpnGateways/*"
+				    },
+                    {
+				    "field": "type",
+				    "like": "Microsoft.Storage/storageAccounts/*"
+				    },
+                    {
+				    "field": "type",
+				    "in": ["Microsoft.Compute/disks", "Microsoft.Compute/virtualMachines", "Microsoft.Network/connections", "Microsoft.Network/networkInterfaces", "Microsoft.Network/networkSecurityGroups", "Microsoft.Network/publicIPAddresses", "Microsoft.Network/virtualHubs", "Microsoft.Network/virtualNetworkGateways", "Microsoft.Network/virtualNetworks", "Microsoft.Network/virtualWans", "Microsoft.Network/vpnGateways", "Microsoft.Storage/storageAccounts"]
+				    }
+                ]
 			}
+		 },
+          {
+		  "allof": [
+			{
+			  "field": "type",
+			  "equals": "Microsoft.Compute/disks"
+			},
+			{
+			  "not": {
+				"field": "Microsoft.Compute/disks/Sku.Tier",
+				"in": ["Standard"]
+				}
+			  }
+			]
+		  },
+          {
+		  "allOf": [
+			{
+			  "field": "type",
+			  "equals": "Microsoft.Compute/virtualMachines"
+			},
+			{
+			  "not": {
+				"allOf": [
+				  {
+           "field": "Microsoft.Compute/virtualMachines/imageOffer",
+					"in": ["Windows-10"]
+				  },
+				  {
+					"field": "Microsoft.Compute/virtualMachines/imagePublisher",
+					"in": ["MicrosoftWindowsDesktop"]
+				  },
+				  {
+					"field": "Microsoft.Compute/virtualMachines/imageSku",
+					 "in": ["20h2-pro"]
+				  },
+				  {
+					"field": "Microsoft.Compute/virtualMachines/sku.name",
+					"in": ["Standard_D2_v3"]
+				  }
+				]
+			  }
+			}
+		   ]
+		},
+            {
+			"allOf": [
+			  {
+				"source": "action",
+				"equals": "Microsoft.Storage/storageAccounts/write"
+			  },
+			  {
+				"field": "type",
+				"equals": "Microsoft.Storage/storageAccounts"
+			  },
+			  {
+				"not": 
+				  {
+					"field": "Microsoft.Storage/storageAccounts/sku.name",
+					"in": ["StandardLRS"]
+				  }
+			   }
+			]
+		  },
 
-		]
+	  ]
 	},
 	"then": {
-		"effect": "deny"
+	  "effect": "deny"
 	}
 }
