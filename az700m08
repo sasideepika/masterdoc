@@ -1,0 +1,14 @@
+[
+  {
+    "Name": "AZ-700 : Designing and implementing microsoft azure netwoking solutions",
+    "Language": "English",
+    "BaseURL": "https://github.com/MicrosoftLearning/AZ-700-Designing-and-Implementing-Microsoft-Azure-Networking-Solutions",
+    "Files":[
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/MicrosoftLearning/AZ-700-Designing-and-Implementing-Microsoft-Azure-Networking-Solutions/master/Instructions/Exercises/M08-Unit%203%20Monitor%20a%20load%20balancer%20resource%20using%20Azure%20Monitor.md",
+        "Order": 1
+       }
+       
+        ]
+      }
+     ]
