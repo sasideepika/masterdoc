@@ -17,6 +17,7 @@
                     "Microsoft.Network/virtualWans/*",
                     "Microsoft.Network/vpnGateways/*",
                     "Microsoft.Resources/deployments/*",
+                    "Microsoft.Network/bastionHosts",
                     "Microsoft.Resources/subscriptions/resourceGroups/read",
                     "Microsoft.Storage/storageAccounts/*"
                 ],
