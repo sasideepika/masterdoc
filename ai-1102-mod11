@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "Module 3 : Analyze Text",
+    "Language": "English",
+    "BaseURL": "https://github.com/MicrosoftLearning/AI-102-AIEngineer",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AI-102-AIEngineer/prod/Instructions/20-ocr.md",
+        "Order": 1
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AI-102-AIEngineer/prod/Instructions/21-form-recognizer.md",
+        "Order": 2
+      }
+    ]
+  }
+]
