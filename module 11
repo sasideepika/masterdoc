@@ -1,0 +1,14 @@
+[
+  {
+    "Name": "AZ-204 : Developing Solutions for Microsoft Azure",
+    "Language": "English",
+    "BaseURL": "https://github.com/CloudLabs-MOC/AZ-204-DevelopingSolutionsforMicrosoftAzure/tree/stage/Instructions/Labs",
+    "Files":[
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-204-DevelopingSolutionsforMicrosoftAzure/stage/Instructions/Labs/AZ-204_lab_11.md",
+        "Order": 1
+       }
+       
+        ]
+      }
+     ]
