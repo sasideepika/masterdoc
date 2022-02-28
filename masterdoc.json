@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "EduLabs",
+    "Language": "English",
+    "BaseURL": "https://github.com/sasideepika/EduLabs/tree/main/BigData/HDF",
+    "Files":[
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/EduLabs/main/BigData/HDF/Exercise-1.md",
+        "Order": 1
+       },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/EduLabs/main/BigData/HDF/Exercise-2.md",
+        "Order": 2
+       },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/EduLabs/main/BigData/HDF/Exercise-3.md",
+        "Order": 3
+       }
+       
+        ]
+      }
+     ]
