@@ -5,16 +5,20 @@
     "BaseURL": "https://github.com/sasideepika/EduLabs/tree/main/BigData/HDF",
     "Files":[
       {
-        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/EduLabs/main/BigData/HDF/Exercise-1.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-Samples/EduLabs/main/BigData/HDF/Getting-started.md",
         "Order": 1
        },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/EduLabs/main/BigData/HDF/Exercise-2.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-Samples/EduLabs/main/BigData/HDF/Exercise-1.md",
         "Order": 2
        },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/EduLabs/main/BigData/HDF/Exercise-3.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-Samples/EduLabs/main/BigData/HDF/Exercise-2.md",
         "Order": 3
+       },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-Samples/EduLabs/main/BigData/HDF/Exercise-3.md",
+        "Order": 4
        }
        
         ]
