@@ -1,0 +1,38 @@
+[
+  {
+    "Name": "Jfrog",
+    "Language": "English",
+    "BaseURL": "https://github.com/sasideepika/JFrog-Pilot/tree/main/Lab",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/JFrog-Pilot/main/Lab/step_1.md",
+        "Order": 1
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/JFrog-Pilot/main/Lab/step_2.md",
+        "Order": 2
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/JFrog-Pilot/main/Lab/step_3.md",
+        "Order": 3
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/JFrog-Pilot/main/Lab/step_4.md",
+        "Order": 4
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/JFrog-Pilot/main/Lab/step_5.md",
+        "Order": 5
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/JFrog-Pilot/main/Lab/step_6.md",
+        "Order": 6
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/JFrog-Pilot/main/Lab/step_7.md",
+        "Order": 7
+      }
+
+    ]
+  }
+]
