@@ -5,27 +5,27 @@
     "BaseURL": "https://github.com/sasideepika/EduLabs/tree/main/Security-ISV/PaloAlto",
     "Files":[
       {
-        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/EduLabs/main/Security-ISV/PaloAlto/getting-started.md",
+        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/EduLabs/main/Security-ISV/PaloAlto/00-getting-started.md",
         "Order": 1
        },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/EduLabs/main/Security-ISV/PaloAlto/task-1.md",
+        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/EduLabs/main/Security-ISV/PaloAlto/01-Getting%20started%20with%20the%20PaloAlto%20Network%20Dashboard.md",
         "Order": 2
        },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/EduLabs/main/Security-ISV/PaloAlto/task-2.md",
+        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/EduLabs/main/Security-ISV/PaloAlto/02-To%20view%20the%20Application%20Command%20Center(ACC).md",
         "Order": 3
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/EduLabs/main/Security-ISV/PaloAlto/task-3.md",
+        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/EduLabs/main/Security-ISV/PaloAlto/03-To%20view%20the%20Object%2C%20Network%2C%20and%20Device%20Tabs%20and%20Security%20Policies.md",
         "Order": 4
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/EduLabs/main/Security-ISV/PaloAlto/task-4.md",
+        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/EduLabs/main/Security-ISV/PaloAlto/04-To%20explore%20the%20various%20options%20in%20Monitor%20tab.md",
         "Order": 5
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/EduLabs/main/Security-ISV/PaloAlto/task-5.md",
+        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/EduLabs/main/Security-ISV/PaloAlto/05-To%20view%20the%20static%20content%20on%20web%20server.md",
         "Order": 6
       }
        
