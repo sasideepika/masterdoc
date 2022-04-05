@@ -2,20 +2,29 @@
   {
     "Name": "EduLabs",
     "Language": "English",
-    "BaseURL": "https://github.com/sasideepika/EduLabs/tree/main/BigData/HDF",
+    "BaseURL": "https://github.com/sasideepika/EduLabs/tree/main/Security-ISV/Azure-WAF",
     "Files":[
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-Samples/EduLabs/main/BigData/HDF/Getting-started.md",
+        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/EduLabs/main/Security-ISV/Azure-WAF/00-getting-started.md",
         "Order": 1
        },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-Samples/EduLabs/main/BigData/HDF/Exercise-1.md",
+        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/EduLabs/main/Security-ISV/Azure-WAF/01-View%20the%20Application%20Gateway.md",
         "Order": 2
        },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-Samples/EduLabs/main/BigData/HDF/Exercise-2.md",
+        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/EduLabs/main/Security-ISV/Azure-WAF/02-Install%20IIS%20for%20testing.md",
         "Order": 3
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/EduLabs/main/Security-ISV/Azure-WAF/03-%20Create%20and%20link%20a%20Web%20Application%20Firewall%20policy.md",
+        "Order": 4
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/EduLabs/main/Security-ISV/Azure-WAF/04-Test%20the%20application%20gateway.md",
+        "Order": 5
       }
+      
        
         ]
       }
