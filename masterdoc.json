@@ -13,16 +13,12 @@
         "Order": 2
        },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/EduLabs/main/Security-ISV/Azure-WAF/02-Install%20IIS%20for%20testing.md",
+        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/EduLabs/main/Security-ISV/Azure-WAF/02-Create%20and%20link%20a%20Web%20Application%20Firewall%20policy.md",
         "Order": 3
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/EduLabs/main/Security-ISV/Azure-WAF/03-%20Create%20and%20link%20a%20Web%20Application%20Firewall%20policy.md",
+        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/EduLabs/main/Security-ISV/Azure-WAF/03-Test%20the%20application%20gateway.md",
         "Order": 4
-      },
-      {
-        "RawFilePath": "https://raw.githubusercontent.com/sasideepika/EduLabs/main/Security-ISV/Azure-WAF/04-Test%20the%20application%20gateway.md",
-        "Order": 5
       }
       
        
