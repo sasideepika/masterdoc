@@ -1,0 +1,14 @@
+[
+  {
+    "Name": "Solution Accelerators",
+    "Language": "English",
+    "BaseURL": "https://github.com/MSUSSolutionAccelerators/AI-Powered-Call-Center-Intelligence-Solution-Accelerator",
+    "Files":[
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/MSUSSolutionAccelerators/AI-Powered-Call-Center-Intelligence-Solution-Accelerator/main/README.md",
+        "Order": 1
+       }
+       
+        ]
+      }
+     ]
