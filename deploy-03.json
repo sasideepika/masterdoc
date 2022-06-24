@@ -660,7 +660,7 @@
                 "[resourceId('Microsoft.Storage/storageAccounts', variables('StorageAccountName'))]"
             ],
             "properties": {
-                "publicAccess": "None"
+                "publicAccess": "Container"
             }
         },
         {
@@ -673,7 +673,7 @@
                 "[resourceId('Microsoft.Storage/storageAccounts', variables('StorageAccountName'))]"
             ],
             "properties": {
-                "publicAccess": "None"
+                "publicAccess": "Container"
             }
         },
         {
@@ -687,7 +687,7 @@
                 "[resourceId('Microsoft.Storage/storageAccounts', variables('StorageAccountName'))]"
             ],
             "properties": {
-                "publicAccess": "None"
+                "publicAccess": "Container"
             }
         },
         {
@@ -701,7 +701,7 @@
                 "[resourceId('Microsoft.Storage/storageAccounts', variables('StorageAccountName'))]"
             ],
             "properties": {
-                "publicAccess": "None"
+                "publicAccess": "Container"
             }
         },
         {
@@ -715,7 +715,7 @@
                 "[resourceId('Microsoft.Storage/storageAccounts', variables('StorageAccountName'))]"
             ],
             "properties": {
-                "publicAccess": "None"
+                "publicAccess": "Container"
             }
         },
         {
@@ -728,7 +728,7 @@
                 "[resourceId('Microsoft.Storage/storageAccounts', variables('StorageAccountName'))]"
             ],
             "properties": {
-                "publicAccess": "None"
+                "publicAccess": "Container"
             }
         },
         {
@@ -741,7 +741,7 @@
                 "[resourceId('Microsoft.Storage/storageAccounts', variables('StorageAccountName'))]"
             ],
             "properties": {
-                "publicAccess": "None"
+                "publicAccess": "Container"
             }
         },
         {
