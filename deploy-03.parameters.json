@@ -1,0 +1,57 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "StorageAccount": {
+      "value": "azacco"
+    },
+    "Locale": {
+      "value": "en-US | English (United States)"
+    },
+    "CustomModelId": {
+      "value": null
+    },
+    "AzureSpeechServicesKey": {
+      "value": "87230fdff132417ba483104954382549"
+    },
+    "AzureSpeechServicesRegion": {
+      "value": "eastus"
+    },
+    "CustomEndpoint": {
+      "value": null
+    },
+    "ProfanityFilterMode": {
+      "value": "Masked"
+    },
+    "PunctuationMode": {
+      "value": "DictatedAndAutomatic"
+    },
+    "AddDiarization": {
+      "value": true
+    },
+    "AddWordLevelTimestamps": {
+      "value": null
+    },
+    "TextAnalyticsKey": {
+      "value": null
+    },
+    "TextAnalyticsRegion": {
+      "value": "None"
+    },
+    "SentimentAnalysis": {
+      "value": "UtteranceLevel"
+    },
+    "PiiRedaction": {
+      "value": "UtteranceAndAudioLevel"
+    },
+    "SqlAdministratorLogin": {
+      "value": "demouser"
+    },
+    "SqlAdministratorLoginPassword": {
+      "value": "Password.1!!"
+    },
+    "DeploymentId": {
+      "value": "dpid"
+    }
+  }
+}
