@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "StorageAccount": {
-      "value": "azacco"
+      "value": "azaccount"
     },
     "Locale": {
       "value": "en-US | English (United States)"
@@ -12,10 +12,10 @@
       "value": null
     },
     "AzureSpeechServicesKey": {
-      "value": "87230fdff132417ba483104954382549"
+      "value": "speechkey"
     },
     "AzureSpeechServicesRegion": {
-      "value": "eastus"
+      "value": "region"
     },
     "CustomEndpoint": {
       "value": null
